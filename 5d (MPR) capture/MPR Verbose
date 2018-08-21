@@ -1,0 +1,358 @@
+Sent a TC message
+Execpted 4 actual 4
+Sent a hello message
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Found a new neighbor from hello msg
+RoutingProtocol::handleHelloMessage: Added a new link into our state
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+2016-Apr-18 13:05:26 2016-Apr-18 13:05:19
+RoutingProtocol::handleHelloMessage: Schedule a 7 seconds to do expire this link
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:7e:b6:6bis 0RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 0
+RoutingProtocol::expireLink: A Link timer has been starteds, sleeping for 7
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 0
+RoutingProtocol::updateState finished handling hello
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:88:32:33
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Found a new neighbor from hello msg
+RoutingProtocol::handleHelloMessage: Added a new link into our state
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+2016-Apr-18 13:05:26 2016-Apr-18 13:05:19
+RoutingProtocol::handleHelloMessage: Schedule a 7 seconds to do expire this link
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:7e:b6:6b as not a two hop neightbor of 1c:bd:b9:88:32:33
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:88:32:33is 0RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 0
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 0
+RoutingProtocol::updateState finished handling hello
+Execpted 4 actual 4
+Sent a hello message
+RoutingProtocol::expireLink: A Link timer has been starteds, sleeping for 7
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Recv a hello from an existing neighbor
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+RoutingProtocol::handleHelloMessage: Update the link to the link tuple set
+RoutingProtocol::updateLinkTuple: Update the link with neighbor
+RoutingProtocol::updateState determined neighbor is asymetric direcitonal
+RoutingProtocol::updateLinkTuple: insert new neighbor found
+RoutingProtocol::updateLinkTuple: Inserted a new neighbor
+RoutingProtocol::updateLinkTuple: Reset sym time to not sym for neighbor
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 2
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 2
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:7e:b6:6bis 2Link message has neighbor type 2
+RoutingProtocol::handleHelloMessage Added two hop neighbor: 0xb4a430
+Link message has neighbor type 2
+RoutingProtocol::handleHelloMessage Added two hop neighbor: 0xb4a430
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:88:32:33 as not a two hop neightbor of 1c:bd:b9:7e:b6:6b
+RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 2
+RoutingProtocol::removeCoveredTwoHopNeighbor: Remove all the two hop neighbors that have been covered by an MPR of address 1c:bd:b9:7e:b6:6b
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Added a neighbor of N2 as MPR
+RoutingProtocol::updateMPRState: Added a neighbor of N2 as MPR
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::updateMPRState removed a N2 neightbor caused by non-reachbility
+RoutingProtocol::updateMPRState removed a N2 neightbor caused by non-reachbility
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 2
+RoutingProtocol::handleHelloMessage Link message has link type 2
+RoutingProtocol::handleHelloMessage MPR selection begins
+RoutingProtocol::handleHelloMessage Link message has link type 2
+RoutingProtocol::handleHelloMessage MPR selection begins
+RoutingProtocol::updateState finished handling hello
+RoutingProtocol::buildHelloMessage Creating hello msg and setting 1c:bd:b9:7e:b6:6b who choose me as a MPR candidate
+Execpted 14 actual 14
+Seralized a link message
+Sent a hello message
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:88:32:33
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Recv a hello from an existing neighbor
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+RoutingProtocol::handleHelloMessage: Update the link to the link tuple set
+RoutingProtocol::updateLinkTuple: Update the link with neighbor
+RoutingProtocol::updateState determined neighbor is asymetric direcitonal
+RoutingProtocol::updateLinkTuple: insert new neighbor found
+RoutingProtocol::updateLinkTuple: Inserted a new neighbor
+RoutingProtocol::updateLinkTuple: Reset sym time to not sym for neighbor
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 2
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:7e:b6:6b as not a two hop neightbor of 1c:bd:b9:88:32:33
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:88:32:33is 1Link message has neighbor type 2
+RoutingProtocol::handleHelloMessage Added two hop neighbor: 0xb4a430
+RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 2
+RoutingProtocol::removeCoveredTwoHopNeighbor: Remove all the two hop neighbors that have been covered by an MPR of address 1c:bd:b9:7e:b6:6b
+RoutingProtocol::removeCoveredTwoHopNeighbor: Remove all the two hop neighbors that have been covered by an MPR of address 1c:bd:b9:88:32:33
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Added a neighbor of N2 as MPR
+RoutingProtocol::updateMPRState: Added a neighbor of N2 as MPR
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::calculateNodeDegree: Calculate the degree of the node
+RoutingProtocol::calculateNodeDegree: Calculate the degree of the node
+RoutingProtocol::updateMPRState removed a N2 neightbor caused by non-reachbility
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::updateMPRState removed a N2 neightbor caused by non-reachbility
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 1
+RoutingProtocol::handleHelloMessage Link message has link type 2
+RoutingProtocol::handleHelloMessage MPR selection begins
+RoutingProtocol::updateState finished handling hello
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Processing message of type
+Handling tc msg
+RoutingProtocol::handleTCMessage: Process tc message and update state
+RoutingProtocol::handleTCMessage: Check the neighbor of this message if it is not originator else discard
+RoutingProtocol::handleTCMessage: Check the tc message and discard if message received out of order
+RoutingProtocol::handleTCMessage: Clean all older topology tuple set
+RoutingProtocol::handleTCMessage: Process the advertised neighbors
+RoutingProtocol::updateState finished handling tc
+RoutingProtocol::updateState forwarding TC packet: 1
+Forwarding TC message
+TC message forwarding was successful
+Returned null msg
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:7e:b6:6b
+Sent a TC message
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:88:32:33
+Processing message of type
+Handling tc msg
+RoutingProtocol::handleTCMessage: Process tc message and update state
+RoutingProtocol::handleTCMessage: Check the neighbor of this message if it is not originator else discard
+RoutingProtocol::handleTCMessage: Check the tc message and discard if message received out of order
+RoutingProtocol::handleTCMessage: Clean all older topology tuple set
+RoutingProtocol::handleTCMessage: Process the advertised neighbors
+RoutingProtocol::updateState finished handling tc
+RoutingProtocol::updateState forwarding TC packet: 1
+Forwarding TC message
+TC message forwarding was successful
+Returned null msg
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:88:32:33
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:5d
+Processing message of type
+Handling tc msg
+RoutingProtocol::handleTCMessage: Process tc message and update state
+RoutingProtocol::handleTCMessage: Check the neighbor of this message if it is not originator else discard
+RoutingProtocol::handleTCMessage: Check the tc message and discard if message received out of order
+RoutingProtocol::handleTCMessage: Clean all older topology tuple set
+RoutingProtocol::handleTCMessage: Process the advertised neighbors
+RoutingProtocol::updateState finished handling tc
+RoutingProtocol::updateState forwarding TC packet: 1
+Forwarding TC message
+TC message forwarding was successful
+Returned null msg
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:7e:b6:5d
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:88:32:33
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Recv a hello from an existing neighbor
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: The neighbor is the same as originator then update the willingness of the neighbor
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+RoutingProtocol::handleHelloMessage: Update the link to the link tuple set
+RoutingProtocol::updateLinkTuple: Update the link with neighbor
+RoutingProtocol::updateLinkTuple: Reset sym time to not sym for neighbor
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 0
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 0
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:7e:b6:6bis 2Link message has neighbor type 0
+Neighbor type not a neighbor now removing the instance
+Link message has neighbor type 0
+Neighbor type not a neighbor now removing the instance
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:88:32:33 as not a two hop neightbor of 1c:bd:b9:7e:b6:6b
+RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 1
+RoutingProtocol::removeCoveredTwoHopNeighbor: Remove all the two hop neighbors that have been covered by an MPR of address 1c:bd:b9:88:32:33
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Added a neighbor of N2 as MPR
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Found a reachable 2 hop neighbor when calculate its reachability
+RoutingProtocol::updateMPRState removed a N2 neightbor caused by non-reachbility
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 2
+RoutingProtocol::handleHelloMessage Link message has link type 0
+RoutingProtocol::handleHelloMessage Link message has link type 0
+RoutingProtocol::updateState finished handling hello
+RoutingProtocol::buildHelloMessage Creating hello msg and setting 1c:bd:b9:7e:b6:6b as not a bidirectional neighbor
+RoutingProtocol::buildHelloMessage Creating hello msg and setting 1c:bd:b9:88:32:33 who choose me as a MPR candidate
+Execpted 24 actual 24
+Seralized a link message
+Seralized a link message
+Sent a hello message
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:88:32:33
+Received the message from 1c:bd:b9:88:32:33 with originator 1c:bd:b9:88:32:33
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Recv a hello from an existing neighbor
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: The neighbor is the same as originator then update the willingness of the neighbor
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+RoutingProtocol::handleHelloMessage: Update the link to the link tuple set
+RoutingProtocol::updateLinkTuple: Update the link with neighbor
+RoutingProtocol::updateLinkTuple: Reset sym time to not sym for neighbor
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 0
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:7e:b6:6b as not a two hop neightbor of 1c:bd:b9:88:32:33
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:88:32:33is 1Link message has neighbor type 0
+Neighbor type not a neighbor now removing the instance
+RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 0
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 1
+RoutingProtocol::handleHelloMessage Link message has link type 0
+RoutingProtocol::updateState finished handling hello
+Malloc shared_ptr OLSR MESSAGE
+OLSR Message is deserialized 1c:bd:b9:7e:b6:6b
+Received the message from 1c:bd:b9:7e:b6:6b with originator 1c:bd:b9:7e:b6:6b
+Processing message of type
+Handling hello msg
+RoutingProtocol::handleHelloMessage: Process hello message and update state
+RoutingProtocol::handleHelloMessage: Check the neighbor from coming hello message
+RoutingProtocol::handleHelloMessage: Recv a hello from an existing neighbor
+RoutingProtocol::handleHelloMessage: Processing the willingness of the neighbor if exist
+RoutingProtocol::handleHelloMessage: The neighbor is the same as originator then update the willingness of the neighbor
+RoutingProtocol::handleHelloMessage: Update the expire time of the link soon if asymTime is greater
+RoutingProtocol::handleHelloMessage the sender's expiration time is 6
+RoutingProtocol::handleHelloMessage: Update the link to the link tuple set
+RoutingProtocol::updateLinkTuple: Update the link with neighbor
+RoutingProtocol::updateLinkTuple: Reset sym time to not sym for neighbor
+RoutingProtocol::handleHelloMessage: Computing MPR and update routing state
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 0
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handle HelloMessage: Hello msg with Link Type: 1 and Neighbor Type: 0
+RoutingProtocol::handleHelloMessage: Process the advertised neighbors
+RoutingProtocol::handleHelloMessage: Found a address in hello msg that was not supposed to be for us
+RoutingProtocol::handleHelloMessage begin examining two hop neighbor
+RoutingProtocol::handleHelloMessage number of links on this message from 1c:bd:b9:7e:b6:6bis 2Link message has neighbor type 0
+Neighbor type not a neighbor now removing the instance
+Link message has neighbor type 0
+Neighbor type not a neighbor now removing the instance
+RoutingProtocol::handleHelloMessage determined 1c:bd:b9:88:32:33 as not a two hop neightbor of 1c:bd:b9:7e:b6:6b
+RoutingProtocol::updateMPRState: Update the MPR to the OLSR state
+RoutingProtocol::updateMPRState: Compute the MPR base on the neighbor and 2-hop neighbors and MPR set
+RoutingProtocol::updateMPRState: Start with an MPR set made of all members of N with N_willingness and WILL_ALWAYS
+RoutingProtocol::updateMPRState: Our N2 set is 0
+RoutingProtocol::updateMPRState: Add to the MPR set those nodes in N, which could reach N2
+RoutingProtocol::updateMPRState: Perform the removal of the coverd Neighbors
+RoutingProtocol::updateMPRState: Check the exist nodes in N2 which are not covered in the last one in MPR set
+RoutingProtocol::updateMPRState: Finish selecting MPR for reachable 2 hop neighbors
+RoutingProtocol::handleHelloMessage message link msg size 2
+RoutingProtocol::handleHelloMessage Link message has link type 0
+RoutingProtocol::handleHelloMessage Link message has link type 0
+RoutingProtocol::updateState finished handling hello
+RoutingProtocol::buildHelloMessage Creating hello msg and setting 1c:bd:b9:7e:b6:6b as not a bidirectional neighbor
+RoutingProtocol::buildHelloMessage Creating hello msg and setting 1c:bd:b9:88:32:33 as not a bidirectional neighbor
+Execpted 24 actual 24
+Seralized a link message
+Seralized a link message
+Sent a hello message
+Waking up to check sym times for 1c:bd:b9:7e:b6:6b
+RoutingProtocol::expireLink: Link expires in 00:00:05
+RoutingProtocol::expireLink: Updating Link tuple and its neightbor for timeout in definite expiration
+RoutingProtocol::expireLink: Link with 1c:bd:b9:7e:b6:6b time got a refresh for 5 (c)
